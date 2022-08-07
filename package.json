@@ -4,7 +4,7 @@
   "description": "Distributed Node.js Sample Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Fake Tests\" && exit 1"
+    "test": "nyc tape ./test/*.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/jpike2/distnode-deploy/issues"
   },
-  "homepage": "https://github.com/jpike2/distnode-deploy#readme"
+  "homepage": "https://github.com/jpike2/distnode-deploy#readme",
+  "devDependencies": {
+    "node-fetch": "2.6",
+    "nyc": "^15.1.0",
+    "tape": "^5.5.3"
+  },
+  "dependencies": {
+    "fastify": "3.2"
+  }
 }

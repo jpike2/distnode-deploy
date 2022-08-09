@@ -9,7 +9,7 @@ deploy:
   provider: script
   script: bash deploy-heroku.sh
   on:
-    branch: master
+    branch: main
 env:
   global:
     - secure: "dzIj07VGLEvrSgWyaZ9wDBRtIVhaEEAcTdmTu+zodYyfecAoSDLaHcxdt/7xthIeQh/th71IAb4IWnxFltzSm2L+K3D0KniyrAjZ2xU2fjekNJdSs+5IFTE4jdN2zPDL1+32Au77g0dLlL7HKWwH6c414gXZbAKtNy6zyEedt/vcpkPtD0i91uRy+KGeM34TeoUksHqk3omh8h6GpIsph2GabEbl+xNVImQ2doK6wrLDUZXc7GUo5aBSDVatPo+Elor00UdtldGb7/20KhH3e80hpbpzJiQPWb6WkB8jh8ZbBQVu06KV79bhwqsSZh8uO9h0bwrVZ2NmjdIUuPobLhO43DZNrC/WLvFRXsRDAsfowxZf7uDsl0ZdbRdyS5YsjHgIPnJaQeMKh2eNvYh03ZDO1+iCA6dn1RLYc0+QcvPu80HP0ZTSRp0oTS0KO+Vxrx4vF8589yLSeDP94H0YE/eHuilW64MiIsnZi3s4NmTamuOCzHqdRG+uYPp1tFsfBhPkYUUWz4RdObrIXKvHHrKxj/Vv0JXejlZIdvRT+ocPozm8o912xji9SI6L7ws84bc1mWbxL/LFHer1Cjgx+GeiutuGqX7j9R68OsMipsm1zDTf8IVuNARWjGcFytpDZ+LsBG0skPEfBBD6+IEOYvibxDlOSvshYGdoixMHvKw="
